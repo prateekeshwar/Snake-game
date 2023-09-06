@@ -261,11 +261,14 @@ const GameScreen: React.FC<Props> = ({
         </div>
       )}
       {!gameOver ? (
-        <p className="instruction">
-          Instruction: Click Start game to start the game, Click reTry game to
-          again break your own score, Use Up, Down, Left and Right key to move
-          snake in respective direction
-        </p>
+        <>
+          <p className="instruction">Instructions</p>
+          <p className="instruction">Click Start game to start the game.</p>
+          <p className="instruction">
+            Press Up, Down, Left and Right Arrow key to move snake in respective
+            direction.
+          </p>
+        </>
       ) : (
         <>
           <p className="instruction">Score: {score}</p>
