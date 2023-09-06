@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  color:aqua;
+  font-family: fantasy;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 50px;
 }
 
 .App-logo {
