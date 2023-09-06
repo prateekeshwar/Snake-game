@@ -1,0 +1,74 @@
+
+.parent-box {
+    width: 600px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    border: 1px solid aqua;
+}
+
+.button-box{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.button-difficulty{
+    width: 7rem;
+    border: 0.01rem solid aqua;
+    border-radius: 10px;
+    height: 3rem;
+    font-size: 20px;
+    font-family: fantasy;
+    background: none;
+    outline: none;
+    color: aqua;
+    padding-top: 5px;
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+}
+
+.button-difficulty:hover{
+    border: 1px solid black;
+    background: aqua;
+    color: black;
+}
+
+.container{
+    align-self: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    margin: 0
+}
+
+.score{
+    width: 100px;
+}
+
+.game-board {
+    width: 600px;
+    align-self: center;
+    height: 500px;
+    outline:1px solid aqua;
+    box-sizing: border-box;
+}
+
+.instruction {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 20px 0 20px;
+    word-break: break-all;
+}
+
+.start-game{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
